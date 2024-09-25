@@ -1,0 +1,16 @@
+.navbar,
+ :before,
+ :after {
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+.nav-link {
+    position: relative;
+    color: gray;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 0.5rem;
+}
