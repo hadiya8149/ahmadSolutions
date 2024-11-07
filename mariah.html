@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mariah's Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            padding: 14px 20px;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .card {
+            background-color: white;
+            padding: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            flex: 1;
+            min-width: 250px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mariah's Personal Website</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Mariah, a passionate web developer and designer. I enjoy creating beautiful and functional websites
+            with a focus on user experience. Welcome to my personal space where I share my work and connect with like-minded individuals.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>Proficient in HTML, CSS, JavaScript, and frameworks like React and Angular.</p>
+            </div>
+            <div class="card">
+                <h3>Backend Development</h3>
+                <p>Experienced with PHP, Laravel, Node.js, and database management.</p>
+            </div>
+            <div class="card">
+                <h3>UI/UX Design</h3>
+                <p>Skilled in creating intuitive user interfaces with Figma and Adobe XD.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio showcasing my projects, skills, and experience in web development.</p>
+            </div>
+            <div class="card">
+                <h3>E-Commerce Website</h3>
+                <p>Developed a fully functional e-commerce website with a secure payment gateway.</p>
+            </div>
+            <div class="card">
+                <h3>Blog Platform</h3>
+                <p>Built a blog platform using Laravel where users can create and share content.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to work with me or have any questions, feel free to reach out!</p>
+        <p>Email: <a href="mailto:mariah@example.com">mariah@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/mariah" target="_blank">linkedin.com/in/mariah</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mariah. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
